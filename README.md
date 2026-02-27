@@ -1,2 +1,4 @@
-# mytypescript
-Playwright basic development purposes
+# Installation
+npm install
+
+npm install --save-dev typescript
