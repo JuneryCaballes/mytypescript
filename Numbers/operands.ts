@@ -17,4 +17,12 @@ export class Operands {
         return this.left / this.right;
     }
 
+    get squareOfLeft(): number {
+        return this.left ** 2;
+    }
+
+    get squareOfRight(): number {
+        return this.right ** 2;
+    }
+
 }
