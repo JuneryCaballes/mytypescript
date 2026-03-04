@@ -1,7 +1,10 @@
-import User from "../Person/user";
+import { User } from "../Person/user";
 
 let user1 = new User("John", "Doe", "Smith", new Date(1990, 5, 15), "john.doe@example.com", "Single");
 console.log(`Full Name: ${user1.getFullName()}`);
 console.log(`Age: ${user1.getAge()}`);
 console.log(`Email Domain: ${user1.getEmailDomain()}`);
 console.log(`Marital Status: ${user1.getMaritalStatus()}`);
+console.log(`School Address: ${JSON.stringify(user1.getSchoolAddress())}`);
+console.log(`Office Address: ${JSON.stringify(user1.getOfficeAddress())}`); 
+console.log(`Person Address: ${JSON.stringify(user1.getPersonAddress())}`);

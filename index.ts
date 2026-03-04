@@ -1,5 +1,5 @@
 import { Operands } from './Numbers/operands';
-import User from "./Person/user";
+import { User } from "./Person/user";
 
 //#region User Information
 let user = new User("Alice", "Johnson", "Smith", new Date(1985, 10, 20), "alice.johnson@example.com", "Married");

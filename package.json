@@ -1,11 +1,15 @@
 {
   "devDependencies": {
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "type": "commonjs",
-
-"name": "mytypescript",
-"scripts": {    "dev": "npx ts-node"
+  "name": "mytypescript",
+  "scripts": {
+    "run_index": "npx tsc index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
