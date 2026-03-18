@@ -33,7 +33,6 @@ export class User {
     private birtDate: Date;
     private email: string;
     private maritalStatus: string;
-    private address: Address;
 
     constructor(firstName: string, middleName: string, lastName: string, birtDate: Date, email: string, maritalStatus: string) {
         this.firstName = firstName;

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "node20",
+    "sourceMap": true,
+    "types": ["node"],
+    // ...existing config...
+  }
+}
